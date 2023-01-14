@@ -1,4 +1,4 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 public class ExplosionController : MonoBehaviour
 {
@@ -17,7 +17,7 @@ public class ExplosionController : MonoBehaviour
         }
     }
     /// <summary>
-    /// ”j‰ó‚µ‚½Œã‚É”š”­‚·‚é
+    /// ç ´å£Šã—ãŸå¾Œã«çˆ†ç™ºã™ã‚‹
     /// </summary>
     private void OnDestroy()
     {
@@ -25,14 +25,14 @@ public class ExplosionController : MonoBehaviour
     }
 
     /// <summary>
-    /// ”š”­‚·‚éŒø‰Ê
+    /// çˆ†ç™ºã™ã‚‹åŠ¹æœ
     /// </summary>
     public void Explosion()
     {
         //m_particle.Play();
         // m_position = m_particle.transform.position;
 
-        // ”ÍˆÍ“à‚ÌRigidbody‚ÉAddExplosionForce
+        // ç¯„å›²å†…ã®Rigidbodyã«AddExplosionForce
         Vector3 _explosionPos = transform.position;
         Collider[] colliders = Physics.OverlapSphere(_explosionPos, _radius);
         //Collider[] hitColliders = Physics.OverlapSphere(m_position, m_radius);
