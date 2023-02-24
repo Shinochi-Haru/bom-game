@@ -1558,7 +1558,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479919281}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0762c3c1f2bea2e4b91f91fdffd85d02, type: 3}
   m_Name: 
@@ -1677,6 +1677,9 @@ MonoBehaviour:
   _explosionObject: {fileID: 1130043549}
   _muzzle: {fileID: 960943465}
   _maxFireDistance: 100
+  radius: 5
+  uppower: 10
+  _widthpower: 2
 --- !u!1001 &1710581519
 PrefabInstance:
   m_ObjectHideFlags: 0
