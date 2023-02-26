@@ -89,6 +89,17 @@
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\BossCamera\BossLookAt.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Scripts\ActivateCameraWithDistance.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\Anywhere Door\TagChanger.cs" />
+    <Compile Include="Assets\Script\MouseCursol.cs" />
+    <Compile Include="Assets\TooManyCrosshairs\HELLSLAYER Crosshairs\_Demo\Scripts\Crosshair.cs" />
+    <Compile Include="Assets\TooManyCrosshairs\_Demo\Scripts\Gun.cs" />
+    <Compile Include="Assets\TooManyCrosshairs\Cursors\_Demo\Scripts\HideMouseCursor.cs" />
+    <Compile Include="Assets\TooManyCrosshairs\Unknown&apos;s Crosshairs\_Demo\Scripts\Gun.cs" />
+    <Compile Include="Assets\TooManyCrosshairs\Cursors\_Demo\Scripts\CursorTrigger.cs" />
+    <Compile Include="Assets\TooManyCrosshairs\_Demo\Scripts\Crosshair.cs" />
+    <Compile Include="Assets\TooManyCrosshairs\Cursors\_Demo\Scripts\MoveToMousePosition.cs" />
+    <Compile Include="Assets\TooManyCrosshairs\Unknown&apos;s Crosshairs\_Demo\Scripts\Crosshair.cs" />
+    <Compile Include="Assets\TooManyCrosshairs\Cursors\_Demo\Scripts\CursorChanger.cs" />
+    <Compile Include="Assets\TooManyCrosshairs\HELLSLAYER Crosshairs\_Demo\Scripts\Gun.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\FadeOutNearbyObjects\FadeOut.shader" />

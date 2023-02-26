@@ -5,13 +5,13 @@
 /// </summary>
 public class ExplosionController : MonoBehaviour
 {
-    ParticleSystem[] m_particleSystems = default;
-    AudioSource m_audio = default;
+    ParticleSystem[] _particleSystems = default;
+    AudioSource _audio = default;
 
     void Start()
     {
-        m_particleSystems = this.transform.GetComponentsInChildren<ParticleSystem>();
-        m_audio = GetComponent<AudioSource>();
+        _particleSystems = this.transform.GetComponentsInChildren<ParticleSystem>();
+        _audio = GetComponent<AudioSource>();
         Explode(Vector3.up * -100f, 0f); // 見えない所で一回爆発させて初期化する
     }
 
@@ -24,15 +24,15 @@ public class ExplosionController : MonoBehaviour
     {
         this.transform.position = position;
 
-        foreach (var p in m_particleSystems)
+        foreach (var p in _particleSystems)
         {
             p.Play();
         }
 
-        if (m_audio)
+        if (_audio)
         {
-            m_audio.volume = volume;
-            m_audio.Play();
+            _audio.volume = volume;
+            _audio.Play();
         }
     }
 
