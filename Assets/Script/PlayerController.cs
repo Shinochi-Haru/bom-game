@@ -1,53 +1,46 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
-    Rigidbody _rb = default;
-    [SerializeField] float _movePower = 0;
-    [SerializeField] float _jumpPower = 0;
-    private bool _isGrounded;
+    Animator anim;
+    public UnityEvent onDieCallback = new UnityEvent();
 
-    private void Start()
+    public int life = 100;
+
+    public Slider hpBar;
+
+    void Start()
     {
-        _rb = GetComponent<Rigidbody>();
-    }
-    void Update()
-    {
-        float h = Input.GetAxisRaw("Horizontal");
-        float v = Input.GetAxisRaw("Vertical");
+        anim = GetComponent<Animator>();
 
-        Vector3 dir = Vector3.forward * v + Vector3.right * h;
-        dir = Camera.main.transform.TransformDirection(dir);
-        dir.y = 0;
-        if (dir != Vector3.zero)
+        if (hpBar != null)
         {
-            this.transform.forward = dir;
-        }
-        dir = dir.normalized * _movePower;
-        float y = _rb.velocity.y;
-
-        if (Input.GetButtonDown("Jump") && _isGrounded)
-        {
-            y = _jumpPower;
-        }
-
-        _rb.velocity = dir * _movePower + Vector3.up * y;
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag == "ground")
-        {
-            _isGrounded = true;
+            hpBar.value = life;
         }
     }
-    private void OnCollisionExit(Collision collision)
+
+    public void Damage(int damage)
     {
-        if (collision.gameObject.tag == "ground")
+        if (life <= 0) return;
+
+        life -= damage;
+        if (hpBar != null)
         {
-            _isGrounded = false;
+            hpBar.value = life;
         }
+        if (life <= 0)
+        {
+            OnDie();
+        }
+    }
+
+    void OnDie()
+    {
+        anim.SetBool("Die", true);
+        onDieCallback.Invoke();
     }
 }
