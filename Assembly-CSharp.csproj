@@ -102,10 +102,18 @@
     <Compile Include="Assets\Script\MouseCursol.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Scripts\ActivateCameraWithDistance.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\Anywhere Door\TagChanger.cs" />
+    <Compile Include="Assets\48 Particle Effect Pack\Script\csParticleEffectPackLightControl.cs" />
+    <Compile Include="Assets\48 Particle Effect Pack\Script\csShowAllEffect.cs" />
+    <Compile Include="Assets\48 Particle Effect Pack\Script\csDestroyEffect.cs" />
+    <Compile Include="Assets\48 Particle Effect Pack\Script\csMouseOrbit.cs" />
+    <Compile Include="Assets\48 Particle Effect Pack\Script\csParticleMove.cs" />
+    <Compile Include="Assets\PBS Materials Variety Pack\zzz\MaterialRandomizer.cs" />
+    <Compile Include="Assets\PBS Materials Variety Pack\zzz\MaterialRandomizerScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\FadeOutNearbyObjects\FadeOut.shader" />
     <None Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\Anywhere Door\ScreenCutoutShader.shader" />
+    <None Include="Assets\PBS Materials Variety Pack\readme.txt" />
     <None Include="Assets\Hovl Studio\Procedural fire\Shaders\FireSphere.shader" />
     <None Include="Assets\Hovl Studio\Procedural fire\Demo scene\Readme.txt" />
   </ItemGroup>
@@ -799,6 +807,18 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
