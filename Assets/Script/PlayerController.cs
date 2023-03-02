@@ -8,7 +8,8 @@ public class PlayerController : MonoBehaviour
 {
     Animator anim;
     public UnityEvent onDieCallback = new UnityEvent();
-
+    /// <summary>持っているアイテムのリスト</summary>
+    List<ItemBase> _itemList = new List<ItemBase>();
     public int life = 100;
 
     public Slider hpBar;
@@ -21,6 +22,22 @@ public class PlayerController : MonoBehaviour
         {
             hpBar.value = life;
         }
+    }
+    private void Update()
+    {
+        if (_itemList.Count > 0)
+        {
+            // リストの先頭にあるアイテムを使って、破棄する
+            ItemBase item = _itemList[0];
+            _itemList.RemoveAt(0);
+            item.Activate();
+            Destroy(item.gameObject);
+        }
+    }
+
+    public void GetItem(ItemBase item)
+    {
+        _itemList.Add(item);
     }
 
     public void Damage(int damage)
