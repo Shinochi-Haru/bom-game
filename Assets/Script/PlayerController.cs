@@ -49,10 +49,10 @@ public class PlayerController : MonoBehaviour
         {
             hpBar.value = life;
         }
-        if (life <= 0)
-        {
-            OnDie();
-        }
+        //if (life <= 0)
+        //{
+        //    OnDie();
+        //}
     }
     void OnDie()
     {
