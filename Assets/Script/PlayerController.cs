@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     /// <summary>持っているアイテムのリスト</summary>
     List<ItemBase> _itemList = new List<ItemBase>();
     public int life = 100;
-
+    public bool invaded;//追いかけられる領域の判定
     public Slider hpBar;
 
     void Start()
@@ -54,10 +54,24 @@ public class PlayerController : MonoBehaviour
             OnDie();
         }
     }
-
     void OnDie()
     {
         anim.SetBool("Die", true);
         onDieCallback.Invoke();
+    }
+    void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.name == "CautionArea")
+        {
+            invaded = true;
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.name == "CautionArea")
+        {
+            invaded = false;
+        }
     }
 }

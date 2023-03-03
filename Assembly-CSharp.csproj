@@ -113,6 +113,7 @@
     <Compile Include="Assets\Script\SpeedUpController.cs" />
     <Compile Include="Assets\Script\BeamController.cs" />
     <Compile Include="Assets\Script\ParticleController.cs" />
+    <Compile Include="Assets\Script\EnemyController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\FadeOutNearbyObjects\FadeOut.shader" />
