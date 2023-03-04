@@ -60,13 +60,20 @@
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Scripts\PlayerMovePhysics.cs" />
     <Compile Include="Assets\TooManyCrosshairs\_Demo\Scripts\Crosshair.cs" />
     <Compile Include="Assets\TooManyCrosshairs\Cursors\_Demo\Scripts\CursorChanger.cs" />
+    <Compile Include="Assets\Script\ItemBase.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Models\UnityCharacter\Scripts\CharacterMovement2D.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Scripts\InvokeEventFromInspector.cs" />
+    <Compile Include="Assets\Script\SpeedUpController.cs" />
+    <Compile Include="Assets\PBS Materials Variety Pack\zzz\MaterialRandomizerScript.cs" />
+    <Compile Include="Assets\48 Particle Effect Pack\Script\csParticleMove.cs" />
     <Compile Include="Assets\TooManyCrosshairs\HELLSLAYER Crosshairs\_Demo\Scripts\Crosshair.cs" />
     <Compile Include="Assets\TooManyCrosshairs\_Demo\Scripts\Gun.cs" />
+    <Compile Include="Assets\48 Particle Effect Pack\Script\csParticleEffectPackLightControl.cs" />
     <Compile Include="Assets\Script\PlayerController.cs" />
+    <Compile Include="Assets\Script\ParticleCollision.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Scripts\SimpleElevator.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\FadeOutNearbyObjects\CinemachineFadeOutNearbyObjects.cs" />
+    <Compile Include="Assets\Script\EnemyController.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\Anywhere Door\PlayerMovement.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Scripts\ThirdPersonFollowDistanceModifier.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\3rdPersonWithAimMode\ActivateOnKeypress.cs" />
@@ -74,11 +81,16 @@
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\Anywhere Door\PlayerLookAt.cs" />
     <Compile Include="Assets\TooManyCrosshairs\Cursors\_Demo\Scripts\CursorTrigger.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Scripts\ExampleHelpWindow.cs" />
+    <Compile Include="Assets\Script\BeamController.cs" />
     <Compile Include="Assets\TooManyCrosshairs\HELLSLAYER Crosshairs\_Demo\Scripts\Gun.cs" />
+    <Compile Include="Assets\Script\ParticleController.cs" />
+    <Compile Include="Assets\48 Particle Effect Pack\Script\csShowAllEffect.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\TooManyCrosshairs\Unknown&apos;s Crosshairs\_Demo\Scripts\Crosshair.cs" />
+    <Compile Include="Assets\48 Particle Effect Pack\Script\csMouseOrbit.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\BossCamera\CustomLockCameraY.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Scripts\PlayerMove.cs" />
+    <Compile Include="Assets\PBS Materials Variety Pack\zzz\MaterialRandomizer.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\Scripting\ScriptingExample.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\2D\LoseSightWhenTargetsFallsOffThePlatform.cs" />
     <Compile Include="Assets\Script\ExplosionController.cs" />
@@ -87,7 +99,9 @@
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\CameraMagnets\CameraMagnetProperty.cs" />
     <Compile Include="Assets\Script\PlayerSkyMove.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Scripts\SpawnInCircle.cs" />
+    <Compile Include="Assets\48 Particle Effect Pack\Script\csDestroyEffect.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Scripts\PlayerMoveOnSphere.cs" />
+    <Compile Include="Assets\Script\EnemyAttackController.cs" />
     <Compile Include="Assets\Script\TestTrap.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\CameraMagnets\CameraMagnetTargetController.cs" />
     <Compile Include="Assets\TooManyCrosshairs\Cursors\_Demo\Scripts\HideMouseCursor.cs" />
@@ -102,20 +116,6 @@
     <Compile Include="Assets\Script\MouseCursol.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Scripts\ActivateCameraWithDistance.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\Anywhere Door\TagChanger.cs" />
-    <Compile Include="Assets\48 Particle Effect Pack\Script\csParticleEffectPackLightControl.cs" />
-    <Compile Include="Assets\48 Particle Effect Pack\Script\csShowAllEffect.cs" />
-    <Compile Include="Assets\48 Particle Effect Pack\Script\csDestroyEffect.cs" />
-    <Compile Include="Assets\48 Particle Effect Pack\Script\csMouseOrbit.cs" />
-    <Compile Include="Assets\48 Particle Effect Pack\Script\csParticleMove.cs" />
-    <Compile Include="Assets\PBS Materials Variety Pack\zzz\MaterialRandomizer.cs" />
-    <Compile Include="Assets\PBS Materials Variety Pack\zzz\MaterialRandomizerScript.cs" />
-    <Compile Include="Assets\Script\ItemBase.cs" />
-    <Compile Include="Assets\Script\SpeedUpController.cs" />
-    <Compile Include="Assets\Script\BeamController.cs" />
-    <Compile Include="Assets\Script\ParticleController.cs" />
-    <Compile Include="Assets\Script\EnemyController.cs" />
-    <Compile Include="Assets\Script\ParticleCollision.cs" />
-    <Compile Include="Assets\Script\EnemyAttackController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\FadeOutNearbyObjects\FadeOut.shader" />
@@ -773,20 +773,32 @@
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
@@ -803,6 +815,12 @@
     <Reference Include="com.unity.cinemachine.editor">
       <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
@@ -814,24 +832,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
