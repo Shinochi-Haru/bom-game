@@ -35,13 +35,4 @@ public class ExplosionController : MonoBehaviour
             _audio.Play();
         }
     }
-
-    /// <summary>
-    /// Button から爆発させるためのテスト用メソッド
-    /// </summary>
-    /// <param name="positionY"></param>
-    public void ExplodeTest(float positionY)
-    {
-        Explode(Vector3.up * positionY);
-    }
 }
