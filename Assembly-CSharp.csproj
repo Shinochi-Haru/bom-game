@@ -75,6 +75,7 @@
     <Compile Include="Assets\48 Particle Effect Pack\Script\csParticleMove.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\Script\SpeedDown.cs" />
     <Compile Include="Assets\TooManyCrosshairs\HELLSLAYER Crosshairs\_Demo\Scripts\Crosshair.cs" />
     <Compile Include="Assets\TooManyCrosshairs\_Demo\Scripts\Gun.cs" />
     <Compile Include="Assets\Simple Scene Fade Load System\Scripts\Fader.cs" />
@@ -158,7 +159,6 @@
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Scripts\ActivateCameraWithDistance.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\Anywhere Door\TagChanger.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-    <Compile Include="Assets\Script\SpeedDown.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
