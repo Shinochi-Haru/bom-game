@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\Countdown.cs" />
     <Compile Include="Assets\TooManyCrosshairs\Unknown&apos;s Crosshairs\_Demo\Scripts\Gun.cs" />
     <Compile Include="Assets\Simple Scene Fade Load System\Scripts\Initiate.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Scripts\PlayerMovePhysics.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="Assets\PBS Materials Variety Pack\zzz\MaterialRandomizerScript.cs" />
     <Compile Include="Assets\48 Particle Effect Pack\Script\csParticleMove.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\Script\Gate.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\Script\SpeedDown.cs" />
     <Compile Include="Assets\TooManyCrosshairs\HELLSLAYER Crosshairs\_Demo\Scripts\Crosshair.cs" />
@@ -159,8 +161,6 @@
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Scripts\ActivateCameraWithDistance.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\Anywhere Door\TagChanger.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-    <Compile Include="Assets\Script\Gate.cs" />
-    <Compile Include="Assets\Script\Countdown.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
